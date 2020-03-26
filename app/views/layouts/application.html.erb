@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Proto</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <div class="header-left">
+        <a href="/">JMED</a>
+      </div>
+      <div class="header-right">
+        <ul>
+          <%= link_to("JMEDとは", {anchor: "about" }, class: "header-menu") %>
+          <%= link_to("ご利用の流れ", {anchor: "how-to" }, class: "header-menu") %>
+          <%= link_to("よくある質問", {anchor: "qa" }, class: "header-menu") %>
+          <%= link_to("新規登録", "signup", class: "header-menu") %>
+          <%= link_to("ログイン", "login", class: "header-menu") %>
+        </ul>
+      </div>
+    </header>
+
+    <%= yield %>
+  </body>
+</html>

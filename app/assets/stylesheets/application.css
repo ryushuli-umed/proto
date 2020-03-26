@@ -1,0 +1,78 @@
+* {
+	margin: 0 0;
+	padding: 0 0;
+	color: black;
+	list-style: none;
+}
+
+.section-title {
+	font-size: 42px;
+	text-align: center;
+	padding: 30px 0;
+}
+
+header {
+	background-color: green;
+	height: 80px;
+}
+
+.header-left {
+	float: left;
+	margin: 15px 0 0 15px;
+}
+
+.header-left a {
+	color: white;
+	font-size: 32px;
+	text-decoration: none;
+}
+
+.header-right {
+	float: right;
+	margin: 15px 15px 0 0;
+}
+
+.header-right li {
+	float: left;
+	margin: 15px 15px 0 0;
+	color: white;
+}
+
+.header-menu {
+	float: left;
+	margin: 15px 15px 0 0;
+	color: white;
+	text-decoration: none;	
+}
+
+.main {
+	background-image: url("https://doctor.mynavi.jp/contents/column/wp-content/uploads/sites/3/2018/02/mv.jpg");
+	background-size: cover;
+	height: 700px;
+}
+
+.about {
+	background-color: white;
+	height: 700px;
+}
+
+.how-to {
+	border-top: solid 1px black;
+	background-color: white;
+	height: 700px;
+}
+
+.how-to-card {
+	border: solid 1px black;
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 30px;
+	height: 150px;
+}
+
+.qa {
+	border-top: solid 1px black;
+	background-color: white;
+	height: 700px;
+}
